@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cricket.css">
+    <style>
+        @keyframes slidein {
+            0%{
+                left: 0px;
+            }
+            50%{
+                left: 400px;
+                top: 150px;
+            }
+            100%{
+                left: 800px;
+                top:0;
+            }
+        }
+      .ball{
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+          background-color: teal;
+          position: absolute;
+      }
+      .stage{
+          background-color: black;
+          min-width: 500px;
+          height: 200px;
+      }
+      .stage:hover .ball{
+          animation: slidein 5s ease-in-out 1s infinite alternate;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="stage">
+        <div class="ball">
+
+        </div>
+    </div>
+    
+</body>
+</html>
