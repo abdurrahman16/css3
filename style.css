@@ -1,11 +1,5 @@
 .box{
-    height: 200;
-    width: 400;
-    border: 2px solid red;
-    
-}
-.box2{
-    height: 300;
-    width: 400;
-    border: 2px solid green;
+    width: 100px;
+    height: 100px;
+    border: 10px red;
 }
